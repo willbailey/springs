@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #17711A;
+  font-family: helvetica;
+  position: relative;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -300px;
+}
+
+#surface {
+  width: 800px;
+  height: 600px;
+}
+
+.control {
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  z-index: 2;
+  bottom: 0px;
+  text-align: center;
+  color: #20A025;
+}
+
+.control.left {
+  left: 50px;
+}
+
+.control.center {
+  left: 300px;
+}
+
+.control.right {
+  right: 50px;
+}
+
+.control input {
+  width: 200px;
+}
